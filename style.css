@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+}
+
+li, a {
+    text-decoration: none;
+    color: #FFE8E5;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    display: flex;
+    height: 7vh;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 64px 6px 64px;
+    background: linear-gradient(90deg, rgba(184,107,119,1) 0%, rgba(184,107,119,1) 50%, rgba(225,151,140,1) 100%);
+
+}
+
+#miniLogo {
+    width: 10%;
+    cursor: pointer;
+}
+
+.navItems {
+    list-style: none;
+}
+
+.navItems li {
+    display: inline-block;
+    padding: 0px 8px 0px 8px;
+}
+
+.head-container {
+
+    display: flex;
+    height: 93vh;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+}
+
+#logo {
+    width: 900px;
+}
+
+.greetings-container {
+    height: 100%;
+    margin-left: 36px;
+}
+
+.greetings-container h1{
+    font-family: 'Cormorant Garamond', serif;
+    color: #FFE8E5;
+    font-size: 64pt;
+    margin-top: 128px;
+    margin-bottom: 0px;
+    
+}
+
+.greetings-container p {
+    color: #FFE8E5;
+}
+
+
+.bg-image-container {
+    position: absolute;
+    height: 100vh;
+    top: 0px;
+    z-index: -2;
+    overflow: hidden;
+}
+
+#bg-image {
+    width: 100%;
+}
+
+.black-opacity-filter {
+
+    background: #000;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    opacity: 0.5;
+}
